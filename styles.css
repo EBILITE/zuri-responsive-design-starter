@@ -123,7 +123,7 @@ div.hero-background-pos {
     position: absolute;
     right: 0px;
     left: 66%;
-    background: #fff;
+    background: rgb(192, 39, 39);
     width: 140px;
     height: 140px;
     border-radius: 50%;
@@ -345,3 +345,58 @@ div.footer h6 {
     font-size: 1rem;
     padding-top: 6rem;
 }
+
+@media screen and (max-width: 992px) {
+     ul.nav-links{
+         flex-direction: column;
+         
+     }
+     ul.nav-links{
+         display:none;
+     }
+     .na_v{
+         display:none;
+     }
+
+     #big_x{
+         display: block;
+         color: #ffff !important;
+         flex-direction: column;
+     }
+
+     .xhf{
+         padding-top:50px;
+         padding-right: -10px;
+         position: relative;
+     }
+     
+        
+    }
+@media screen and (max-width: 1324px) {
+    div.hero-background-pos{
+        display:none;
+    }
+
+}
+
+@media screen and (max-width: 700px){
+    div.snapshot-box-content {
+        display: flex;
+        flex-direction: column;
+        width: 50%;
+        
+    }
+
+    .icon{
+        display:block;
+    }
+
+    ul.nav-links{
+        display:none;
+    }
+
+}
+    
+
+
+   
